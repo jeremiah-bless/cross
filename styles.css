@@ -16,7 +16,7 @@ p {
 
 .big-heading {
   font-family: "Montserrat-Black";
-  font-size: 3.2rem;
+  font-size: 3.3rem;
   line-height: 1.5;
 }
 
@@ -28,7 +28,7 @@ p {
 /* Containers */
 
 .container-fluid{
-  padding: 7% 15%;
+  padding: 7% 10%;
 }
 
 /* Sections */
@@ -73,10 +73,73 @@ p {
 .title-image {
   width: 80%;
   position: absolute;
-  right: 10%;
+  right: 1%;
 }
+
+/* author */
+.author-heading{
+  margin-top: 50px;
+  font-size: 2.5rem;
+}
+
+.author-image{
+  width: 100%;
+  box-shadow: 10%;
+  /* border-radius: 100%;  */
+}
+
+.author-text{
+  margin-top: 50px;
+  font-size: 1.2rem;
+  text-align: justify;
+}
+
+/* articles Section */
+
+#articles {
+  padding: 100px;
+}
+
+.articles-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.articles-column {
+  padding: 3% 2%;
+  /* background-color: bisque; */
+  margin: 2% 20px;
+}
+
 
 /* css */
 .align-left{
   text-align: left;
+}
+
+.navbar-color{
+  color: wheat;
+}
+
+.white-font{
+  color: white;
+}
+
+/* Footer Section */
+
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
 }
