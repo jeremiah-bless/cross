@@ -54,6 +54,10 @@ p {
   font-weight: bold;
 }
 
+.image-width{
+  width: "30%";
+}
+
 .nav-item {
   padding: 0 18px;
 }
@@ -135,6 +139,10 @@ p {
 
 @media (max-width: 1028px) {
 
+  .image-width{
+    width: "10%";
+  }
+
   #title {
     text-align: center;
   }
@@ -150,6 +158,7 @@ p {
 }
 
 .author-text{
-  font-size: 0.6rem;
+  font-size: 1rem;
 }
+
 }
